@@ -1,0 +1,49 @@
+$color-white: #ffffff;
+$color-primary: #333333;
+$color-blue: #008ed6;
+$bg-grey: #343a40;
+$icon-size: 24px;
+
+body {
+    color: $color-white;
+    background: $color-primary;    
+}
+.navbar{
+    border-bottom: 3px solid $color-blue;
+    background: rgba($bg-grey, .8);
+
+}
+
+// moduler CSS
+
+// fa-icon
+.fa-icon {
+    background-color: #fff;
+    padding: 4px;
+    border-radius: 5px;
+    color: $color-blue;
+    font-size: $icon-size;
+}
+.fa-icon-grey{
+    background-color: $bg-grey;
+    color: $color-white;
+
+}
+.fa-icon-blue{
+    background-color: $color-blue;
+    color: $color-white;
+
+}
+
+// home-section
+#home-section{
+    background: linear-gradient(to bottom,
+                rgba(0, 0, 0, .6), rgba(0, 0, 0, .8)),
+                url('../img/home.jpg') no-repeat;
+    background-size: cover;
+    background-position: top;
+    min-height: 650px;    
+    padding-top: 150px;
+        
+
+}
